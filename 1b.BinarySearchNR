@@ -23,7 +23,6 @@ class BinarySearchNR{
     public static int binarysearch(int lb,int ub,int key,int a[]){
         while(lb<=ub){
             int mid=(lb+ub)/2;
-            System.out.println(lb+" "+ub);
             if(a[mid]==key){
               return mid;
                 
